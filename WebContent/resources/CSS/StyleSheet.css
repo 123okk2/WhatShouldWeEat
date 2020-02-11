@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 body {
 	background-image: url("bckG.png");
@@ -46,3 +47,53 @@ body {
     height : 50px;
     width : 80%;
 }
+=======
+@charset "UTF-8";
+body {
+	background-image: url("bckG.png");
+}
+.main {
+    width : 30%;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.main h1 {
+    background-color: beige;
+    text-align: center;
+    color:crimson;
+    margin: 0px;
+}
+.buttons {
+    height : 50px;
+    width : 100%;
+}
+.buttons input {
+    font-size: 20px;
+    font-family: monospace;
+    height : 50px;
+    width : 33.33%;
+    margin-right: -4px;
+    margin-left: -3px;
+    border : 1px solid skyblue;
+    background-color: beige;
+    color: skyblue;
+}
+.buttons input:hover {
+    background-color: aquamarine;
+}
+.textBox {
+    background-color: beige;
+    width : 100%;
+}
+.textBox input{
+    margin-top : 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height : 50px;
+    width : 80%;
+}
+>>>>>>> refs/remotes/origin/master

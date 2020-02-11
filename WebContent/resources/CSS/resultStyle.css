@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "EUC-KR";
 body {
 	background-image: url("bckG.png");
@@ -45,4 +46,53 @@ body {
 }
 .resultbuttons input:hover {
     background-color: aquamarine;
+=======
+@charset "EUC-KR";
+body {
+	background-image: url("bckG.png");
+}
+.main {
+    width : 30%;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.main h1 {
+    background-color: beige;
+    text-align: center;
+    color:crimson;
+    margin: 0px;
+}
+.resultBox {
+    background-color: beige;
+    width : 100%;
+}
+.resultBox input{
+    text-align : center;
+    margin-top : 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height : 50px;
+    width : 80%;
+    font-size : 20px;
+}
+.resultbuttons {
+    height : 50px;
+    width : 100%;
+}
+.resultbuttons input {
+    font-size: 15px;
+    font-family: monospace;
+    height : 50px;
+    width : 100%;
+    border : 1px solid skyblue;
+    background-color: beige;
+    color: skyblue;
+}
+.resultbuttons input:hover {
+    background-color: aquamarine;
+>>>>>>> refs/remotes/origin/master
 }
